@@ -110,7 +110,21 @@ a, #desc {
 
 .third {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+}
+
+#author {
+    text-align: right;
+}
+
 
 .fourth {
     flex-shrink: 1;
