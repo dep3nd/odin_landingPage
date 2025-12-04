@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
     font-family: "Times New Roman", Georgia, serif;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@ body{
 #gap{
     width: 1000px;
     justify-self: center;
+    
 }
 
 .topBar>#gap{
@@ -33,7 +34,7 @@ a, #desc {
     color: #e5e7eb;
 }
 
-#logo {
+#logo, .footer {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -48,9 +49,10 @@ a, #desc {
 .container{
     display: flex;
     flex-direction: column;
+    flex:1;
 }
 
-.topBar, .first {
+.topBar, .first, .footer {
     background-color: #1F2937;
 }
 
@@ -112,6 +114,7 @@ a, #desc {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #quote {
@@ -119,17 +122,36 @@ a, #desc {
     color: #1F2937;
     font-weight: 300;
     text-align: center;
+    margin-bottom: 0;
 }
 
 #author {
     text-align: right;
+    font-weight: 600;
 }
-
 
 .fourth {
-    flex-shrink: 1;
+    align-content: center;
 }
 
+.boxOne{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
+}
+
+.textB>p{
+    color: #f9faf8;
+    margin: 0;
+}
+
+#headerB{
+    font-size: 24px;
+    font-weight: 300;
+}
 
 button {
   cursor: pointer;
@@ -146,7 +168,17 @@ button.fBut {
 }
 
 button.sBut {
-  background: white;
-  border: 1px solid #ddd;
-  color: royalblue;
+  background: #3882f6;
+  border: 2px solid #f2f3f5;
+  color: #f2f3f5;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    padding: 38px;
+}
+
+.Pane{
+    flex: 1;
 }
