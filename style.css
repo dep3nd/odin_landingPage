@@ -56,15 +56,16 @@ a, #desc {
     background-color: #1F2937;
 }
 
+.first{
+    align-content: center;
+}
+
 .first>#gap{
     display: flex;
     justify-content: space-between;
     gap: 16px;
 }
 
-.first{
-    padding: 100px;
-}
 
 .left{
     flex:1;
@@ -81,8 +82,8 @@ a, #desc {
 }
 
 .second{
-    padding: 100px;
     text-align: center;
+    align-content: center;
 }
 
 #headerA{
