@@ -7,7 +7,7 @@ body{
 }
 
 #gap{
-    width: 800px;
+    width: 1000px;
     justify-self: center;
 }
 
@@ -68,12 +68,17 @@ a, #desc {
     padding: 100px;
     
 }
+.left{
+    flex:1;
+}
 
 #imgMain{
     width: 400px;
     height: 200px;
     flex-shrink: 0;
     align-self: center;
+    flex: 1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .third {
@@ -82,4 +87,25 @@ a, #desc {
 
 .fourth {
     flex-shrink: 1;
+}
+
+
+button {
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+button.fBut {
+  background: #3882f6;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+button.sBut {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
 }
