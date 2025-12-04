@@ -54,10 +54,6 @@ a, #desc {
     background-color: #1F2937;
 }
 
-.second, .fourth {
-    background-color: #d7eafd;
-}
-
 .first>#gap{
     display: flex;
     justify-content: space-between;
@@ -66,8 +62,8 @@ a, #desc {
 
 .first{
     padding: 100px;
-    
 }
+
 .left{
     flex:1;
 }
@@ -78,7 +74,38 @@ a, #desc {
     flex-shrink: 0;
     align-self: center;
     flex: 1;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.second{
+    padding: 100px;
+    text-align: center;
+}
+
+#headerA{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imgSml{
+    height: 150px;
+}
+
+.Plant, #imgSml{
+    width: 150px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.text{
+    color: #bfc1c4;
 }
 
 .third {
